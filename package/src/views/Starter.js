@@ -11,7 +11,7 @@ const Starter = () => {
   const [selectedPaper, setSelectedPaper] = useState(null);
   const [preprocessedText, setPreprocessedText] = useState("");
   const [showModal, setShowModal] = useState(false);
-
+    const [test, setTest] = useState(null)
   // Fetch papers from arXiv API
   useEffect(() => {
       if (searchTerm.trim() === "") return;
