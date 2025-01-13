@@ -173,9 +173,9 @@ const Starter = () => {
     <pre style={{ whiteSpace: "pre-wrap" }}>{preprocessedText}</pre>
   </ModalBody>
   <ModalFooter>
-    <Button color="secondary" onClick={() => setShowModal(false)}>
-      Close
-    </Button>
+                    <Button color="secondary" onClick={() => setShowModal(false)}>
+                    Close
+                    </Button>
   </ModalFooter>
 </Modal>
             </Container>
